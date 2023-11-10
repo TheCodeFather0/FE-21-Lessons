@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    background-color: #FFF9E7;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 20px 0;
+}
+
+.header h2 {
+    letter-spacing: 3px;
+}
+
+.nameAndSurname {
+    float: left;
+}
+
+.nameAndSurname span {
+    color: rgb(195, 166, 5);
+}
+
+.navigation {
+    float: right;
+    margin-top: 7px;
+}
+
+.navigation a {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20px;
+    color: black;
+}
+
+.main {
+    clear: both;
+    background-color: red;
+    margin-top: 130px;
+}
+
+.left {
+    width: 60%;
+    float: left;
+}
+
+
+.left h1 {
+    font-family: cursive;
+    font-size: 60px;
+}
+
+.left .is_guc {
+    color: gray;
+    letter-spacing: 2px;
+    margin: 15px 0 30px;
+}
+
+.left .hireme_button {
+    background-color: rgb(195, 166, 5);
+    padding: 10px 30px;
+    border-radius: 7px;
+    color: white;
+}
+
+.right {
+    width: 40%;
+    float: right;
+
+}
+
+.line {
+    background-color: rgb(195, 166, 5);
+    width: 80px;
+    height: 3px;
+    border-radius: 10px;
+}
+
+.socialMedia {
+    margin-top: 30px;
+}
+
+.socialMedia a {
+    color: rgb(195, 166, 5);
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.right img {
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 	40px 40px 15px rgba(144,  160,  22,   0.5);
+}

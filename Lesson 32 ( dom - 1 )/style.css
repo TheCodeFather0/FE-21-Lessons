@@ -1,0 +1,100 @@
+/* .red {
+  background-color: green;
+}
+
+.hide {
+  display: none;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.prompt {
+  width: 450px;
+  background-color: #212121;
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 18px;
+  position: absolute;
+  top: -100%;
+  transition: all 0.5s;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.prompt .title {
+  margin-top: 15px;
+  font-size: 17px;
+}
+
+.prompt input {
+  background-color: transparent;
+  border: 1px solid rgb(233, 106, 60);
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  color: white;
+  border-radius: 4px;
+}
+
+.okButton,
+.cancelButton {
+  background-color: rgb(233, 106, 60);
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.cancelButton {
+  background-color: transparent;
+  border: 1px solid rgb(233, 106, 60);
+}
+
+.buttons {
+  text-align: right;
+}
+
+.show {
+  top: 0;
+}
+
+li {
+  background-color: black;
+  color: lime;
+  padding: 10px;
+  margin: 10px;
+}
+
+h2 {
+  margin: 20px 10px;
+}
+
+.lampaContainer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.lampaContainer img {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%) rotate(180deg);
+}
+
+.lampaContainer button {
+  margin-top: 150px;
+}
+
+body {
+  background-color: black;
+}

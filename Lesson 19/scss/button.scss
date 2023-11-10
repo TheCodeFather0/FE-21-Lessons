@@ -1,0 +1,17 @@
+@mixin duymeler {
+  border: none;
+  background-color: $listItemColor;
+  color: $currentColor;
+  padding: 10px 30px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.btn-basic {
+  @include duymeler;
+}
+
+.btn-primary {
+  background-color: green;
+  @extend .btn-basic;
+}

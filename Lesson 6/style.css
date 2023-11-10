@@ -1,0 +1,139 @@
+
+
+body{ 
+    margin: 0;
+}
+
+
+/* div:hover {
+    background-color: green;
+} */
+
+
+a {
+    background-color: red;
+    color: black;
+}
+
+a:link {
+    background-color: black;
+    color: white;
+}
+
+a:visited {
+    background-color: green;
+}
+
+a:hover {
+    background-color: blue;
+}
+
+a:active {
+    background-color: purple;
+}
+
+
+input {
+    margin: 20px;
+    color:red
+}
+
+input:hover {
+    background-color: red;
+}
+
+input:focus {
+    background-color: green;
+}
+
+
+p {
+    background-color: red;
+    margin: 20px auto;
+    padding: 10px;
+  }
+
+.basliqlar p:not(:first-child) {
+    background-color: blue;
+}
+
+/* .basliqlar p:nth-child(even) {
+    background-color: purple;
+} */
+
+/* .basliqlar p:last-child {
+    background-color: green;
+} */
+
+
+.money {
+    margin: 20px;
+}
+
+.money::before{
+    content: '$';
+}
+
+/* p::first-letter {
+    font-size: 40px;
+    color: green;
+} */
+
+p::first-line {
+    background-color: green;
+}
+
+li::marker {
+    color: black;
+}
+li {
+    color: red;
+}
+
+
+/* h1::selection {
+    color: lime;
+    background-color: black;
+} */
+
+/* body {
+    user-select: none;
+} */
+* {
+    margin: 0;
+}
+.header{
+    background-color:rgba(155, 20, 193,1);
+    color:white;
+    padding: 10px;
+}
+
+.header div:first-child {
+    float: left;
+}
+
+.header div:nth-child(2) {
+    float: right;
+    position: relative;
+}
+
+.clear {
+    clear: both;
+}
+
+.header img {
+    width:70px;
+    height:70px;
+    border-radius: 50%;
+}
+
+.header div:nth-child(2)::after {
+    content:'';
+    width: 10px;
+    height: 10px;
+    background-color: lime;
+    border-radius: 50%;
+    position: absolute;
+    right:0px;
+    top: 10px;
+}

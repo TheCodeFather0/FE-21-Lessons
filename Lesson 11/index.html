@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form>
+       <fieldset>
+            <legend>Qeydiyyat formu</legend>
+             <!-- ad: <br> -->
+        <label for="nameInput">
+            AD:<input type="text" name="name" id="nameInput"  placeholder="adinizi daxil edin"> 
+        </label>
+       <label for="surnameInput">
+        SOYAD: <input type="text" name="surname" maxlength="5" minlength="3" placeholder="soy adivi yaz qardasoglu">
+       </label>
+       <label for="emailInput">
+        Email: <input type="email" name="email" id="emailInput" placeholder="email yaz">
+       </label>
+       <label for="passwordInput">
+        Password: <input type="password" name="password" id="passwordInput">
+       </label>
+       <label for="year">
+        Dogum ili: <input type="date" id="year" name="year">
+       </label>
+       <label for="file">
+        seklivi yukle: <input type="file" >
+       </label>
+
+       <label for="tel">
+        Nomre: <input type="tel" name="tel" id="tel" placeholder="telefon nomrevi yaz qardasoglu" required>
+       </label>
+       <label for="color">
+        sevdiyiniz reng: <input type="color" name="color" id="color">
+       </label>
+
+       <p>Gender</p>
+       <label for="male">
+        Kisi: <input type="radio" name="gender" id="male">
+       </label>
+       <label for="female">
+        Qadin: <input type="radio" name="gender" id="female">
+       </label>
+
+       <p>Sevdiyin yemekler</p>
+       <label for="as">
+        AS: <input type="checkbox" name="as" id="as">
+       </label>
+       <label for="dolma">
+        dolma: <input type="checkbox" name="dolma" id="dolma">
+       </label>
+       <label for="kebab">
+        kebab: <input type="checkbox" name="kebab" id="kebab">
+       </label>
+       <textarea name="desc" id="desc" cols="50" rows="10"></textarea>
+       <!-- <input type="submit" value="Gonder"> -->
+       <select name="seherler" id="seherler">
+        <optgroup label="yaxin seherler">
+            <option value="0">Baki</option>
+            <option value="1">Sumqayit</option>
+            <option value="2">Samaxi</option>
+        </optgroup>
+        <optgroup label="uzaq seherler">
+            <option value="3">Lenkeran</option>
+            <option value="4">Naxcivan</option>
+            <option value="5">Lacin</option>
+        </optgroup>
+       </select>
+       <button type="submit">Gonder</button>
+       <button type="reset">Sifirla</button>
+       <!-- <button type="button">Gonder</button> -->
+       </fieldset>
+    </form>
+</body>
+</html>

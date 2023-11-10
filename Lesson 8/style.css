@@ -1,0 +1,161 @@
+/* .box {
+    background-color: green;
+    padding: 10px;
+}
+
+a.box {
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    width: 25%;
+    display: block;
+} */
+
+
+
+.cards {
+    border: 5px solid blue;
+    height: 500px;
+    /* margin: 20px; */
+    width: 900px;
+    margin: 30px auto;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    /* flex-flow: column nowrap; */
+
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* justify-content: center;  */
+    /* align-items:center; */
+    /* justify-content: space-between; */
+    /* align-items: end; */
+    /* justify-content: center; */
+    /* gap: 20px; */
+}
+
+.card {
+    border: 3px solid red;
+    border-radius: 10px;
+    /* margin: 10px; */
+    /* width: 300px; */
+    /* height: 50px; */
+    /* overflow: hidden; */
+    /* margin-bottom: 20px; */
+    /* float: left; */
+    /* display: inline-block; */
+    /* width: 200px; */
+}
+/* 
+.cards .card:first-child {
+    background-color: red;
+    order: 1;
+} */
+
+.cards .card:nth-child(1) {
+    /* order: 2; */
+    flex-grow: 1;
+    background-color: red;
+}
+
+.cards .card:nth-child(2) {
+    /* order: 2; */
+    flex-grow: 3;
+}
+.cards .card:nth-child(3) {
+    /* order: 1; */
+    flex-grow: 1;
+}
+.cards .card:nth-child(4) {
+    /* order: 5; */
+}
+.cards .card:nth-child(5) {
+    /* order: 4; */
+}
+
+.card h4::first-letter {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.main {
+    border: 3px solid green;
+    width: 400px;
+    margin: 30px auto;
+    display: flex;
+    padding: 20px;
+    height: 400px;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    align-items: center;
+    /* align-content: center; */
+    align-content: space-between;
+}
+
+.main div {
+    height: 20px;
+    padding: 10px;
+    /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100px; */
+    flex: 1 1 100px;
+    background-color: brown;
+}
+
+.main div:nth-child(1) {
+    background-color: red;
+    /* flex-shrink: 0; */
+    /* align-self: flex-start; */
+    align-self: center;
+}
+
+.main div:nth-child(2) {
+    background-color: pink;
+}
+
+.main div:nth-child(3) {
+    background-color: purple;
+}
+
+.main div:nth-child(4) {
+    background-color: rgb(0, 76, 255);
+}
+
+.main div:nth-child(5) {
+    background-color: green;
+    /* align-self: flex-end; */
+}
+
+.pillekenler {
+    border: 5px solid red;
+    width: 500px;
+    height: 170px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pilleken {
+    height: 50px;
+    background-color: blue;
+}
+
+.pilleken:first-child {
+    width: 30%;
+}
+
+.pilleken:nth-child(2) {
+    width: 50%;
+}
+
+.pilleken:nth-child(3) {
+    width: 70%;
+}

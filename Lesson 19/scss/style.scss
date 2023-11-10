@@ -1,0 +1,43 @@
+$saytinRengi: black;
+$listItemColor: yellow;
+$currentColor: black;
+
+@import "./button.scss";
+
+body {
+  background-color: $saytinRengi;
+}
+
+.list-container {
+  .list {
+    border: 2px solid $listItemColor;
+    padding: 10px;
+
+    .list-item {
+      color: $listItemColor;
+
+      &:hover {
+        color: green;
+      }
+    }
+  }
+}
+
+.list-container {
+  .list {
+    .list__item {
+      background-color: green;
+      margin: 10px;
+      padding: 10px;
+      display: inline-block;
+
+      a {
+        color: white;
+      }
+    }
+
+    .list__item--active {
+      background-color: yellow;
+    }
+  }
+}

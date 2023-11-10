@@ -1,0 +1,73 @@
+:root {
+    --current-bg-color:#f0fff8;
+    --current-border-color:#80ced6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.page_title {
+    padding: 20px 0;
+    font-family: cursive;
+    text-transform: capitalize;
+}
+
+h2 {
+    font-family: cursive;
+}
+
+.row {
+    background-color: var(--current-bg-color);
+    border: 1px solid var(--current-border-color);
+    border-bottom: 0px;
+}
+
+.last_row {
+    border-bottom: 1px solid var(--current-border-color);
+}
+
+.left,
+.right {
+    padding: 15px;
+}
+
+.left {
+    float: left;
+    border-right: 1px solid var(--current-border-color);
+    width: 35%;
+}
+
+.right {
+    float: right;
+    width: 65%;
+}
+
+.clear {
+    clear: both;
+}
+
+.light_box {
+    border: 1px solid var(--current-border-color);
+    background-color: var(--current-bg-color);
+    padding: 40px;
+    margin: 20px 0;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    font-style: italic;
+}
+
+.career ul {
+    list-style-type: square;
+}

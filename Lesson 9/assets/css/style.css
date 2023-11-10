@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+}
+
+.container {
+    width: 85%;
+    margin: 0px auto;
+}
+
+.header{
+    background-image: url(../images/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 800px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.navbar,
+.navbar a {
+    display: flex;
+    align-items: center;
+}
+
+.navigation a {
+    font-size: 18px;
+}
+
+.logoAndCourses {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoAndCourses a {
+    color: #000;
+}
+
+.navbar {
+    gap: 30px;
+}
+
+.wishList {
+    color: #008D96;
+}
+
+.navigation a > img {
+    margin-right: 5px;
+}
+
+.loginButton {
+    border: 1px solid;
+    color: #008D96;
+    border-radius: 40px;
+    padding: 7px 15px;
+    transition: 1s;
+}
+
+.button {
+    transition: 0.5s;
+    background-color: #008D96;
+    padding: 7px 15px;
+    color: white;
+    border: 1px solid;
+    border-radius: 40px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.banner h2 {
+    width: 17ch;
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+
+.banner h2 > span {
+    color: #F5AF15;
+}
+
+.bannerCoursesButton {
+    font-size: 20px;
+    padding-inline:25px;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: #008D96;
+}
+
+.button:hover > svg {
+    stroke: #008D96;
+}
+
+.registerSvg,
+.loginSvg {
+    margin-right: 5px;
+}
+
+.loginButton:hover {
+    background-color: #008D96;
+    color: white;
+}
+
+.loginButton:hover > svg {
+    stroke: white;
+}

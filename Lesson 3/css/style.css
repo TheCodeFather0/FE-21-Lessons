@@ -1,0 +1,84 @@
+ @import url(./reset.css);
+/*div {
+    height: 500px;
+    background-image: url(../images/tebiet-sekli.avif);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 5px solid red;
+
+    color: white;
+} 
+
+
+
+div {
+    width: 300px; 
+     height: 300px;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: blue; 
+
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px; 
+
+    margin: 50px 25px 50px; 
+    margin: 50px 0; 
+    margin: 30px 40px   ; 
+    margin-top: -100px; 
+
+
+     margin: 50px;
+    padding: 50px; 
+
+
+     box-sizing: border-box; 
+
+    margin: 30px auto;
+
+
+
+    text-align: center;
+    border: 2px solid blue;
+    border-radius: 50%;
+    color:red;
+} */
+
+
+.qutu {
+    width: 300px;
+    height: 300px;
+    border: 5px dashed green;
+    margin: 20px auto;
+    color: white;
+    font-size: 70px;
+}
+
+#blue{
+    background-color: blue;
+}
+
+#red{
+    background-color: red;
+}
+
+.navigation {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.navigation a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+/* body {
+    user-select: none;
+} */

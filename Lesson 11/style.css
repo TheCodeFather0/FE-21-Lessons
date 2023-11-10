@@ -1,0 +1,18 @@
+label {
+    display: block;
+    margin: 10px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+option:nth-child(odd) {
+    color: red;
+    background-color: green;
+}
+
+option:hover {
+    background-color: black;
+    color:white;
+}
