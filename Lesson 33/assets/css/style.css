@@ -1,0 +1,52 @@
+/* div {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 20px;
+  cursor: pointer;
+} */
+
+#red {
+  background-color: red;
+}
+#green {
+  background-color: green;
+}
+#yellow {
+  background-color: yellow;
+}
+#blue {
+  background-color: blue;
+}
+
+* {
+  list-style-type: none;
+}
+h2 {
+  text-align: center;
+}
+.todo {
+  background-color: cadetblue;
+  padding: 10px;
+  margin: 10px;
+}
+
+.addTodoContainer {
+  text-align: center;
+}
+
+button {
+  margin-left: 7px;
+}
+
+.modal {
+  position: absolute;
+  background: linear-gradient(red, purple, blue);
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
