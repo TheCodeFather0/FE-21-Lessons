@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "name": "Aynur",
+      "surname": "Ağabalayeva",
+      "age": "8",
+      "src": "https://images3.alphacoders.com/133/1338256.png",
+      "description": "Ferma Qurmaq ucun javascript oyrenirem!",
+      "id": 1
+    },
+    {
+      "name": "Coder Elmira",
+      "surname": "Hətəmova",
+      "age": "19",
+      "src": "https://wallpapers.com/images/hd/baby-pictures-9jpgh3kik6uya6ms.jpg",
+      "description": "Men React Oyrenmek isteyirem!",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Ruhana",
+      "surname": "Xəlilzadə",
+      "age": 11,
+      "src": "https://www.southernliving.com/thmb/vr9mB3rsupqxnV_yjn1VuzDYZ9A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-892959344-88c4f99df9984da2876de836f14a35a1.jpg",
+      "description": "Ya znayu eight languages!"
+    },
+    {
+      "id": 4,
+      "name": "Günel",
+      "surname": "Xəlilzadə",
+      "age": 4,
+      "src": "https://i.pinimg.com/originals/4a/f3/f4/4af3f468494ecb6667c06fc3b38a3886.jpg",
+      "description": "Menim isim gucum ders oxumaqdir ve men bezmisem!"
+    },
+    {
+      "id": 5,
+      "name": "Səadət",
+      "surname": "Şükürlü",
+      "age": 78,
+      "src": "https://t3.ftcdn.net/jpg/00/75/21/66/360_F_75216689_f6t9vNpSyDkH9gXZrAZnzDbO1SgFL68q.jpg",
+      "description": "Qalmisam delilerin elinde!"
+    },
+    {
+      "id": 6,
+      "name": "Yaşar Aga",
+      "surname": "Əzizov",
+      "age": 52,
+      "src": "https://www.hicrethaber.com/images/haberler/2018/05/baron-yasar-aga-vekil-adayi-oldu.jpg",
+      "description": "Men teze komputer aldiqdan sonra ancaq oyun oynayiram!"
+    },
+    {
+      "id": 7,
+      "name": "Taleh",
+      "surname": "Ağayev",
+      "age": 21,
+      "src": "https://upload.wikimedia.org/wikipedia/tr/thumb/e/e6/Abd%C3%BClhey_%C3%87oban_karakteri.jpg/300px-Abd%C3%BClhey_%C3%87oban_karakteri.jpg",
+      "description": "Racon kesmem kafa keserim!"
+    },
+    {
+      "id": 8,
+      "name": "Samir",
+      "surname": "Ağayev",
+      "age": 44,
+      "src": "https://pbs.twimg.com/media/EsWr18YXUAI2G8_.png",
+      "description": "Senden buyuk Allah var!"
+    },
+    {
+      "id": 9,
+      "name": "Ramin",
+      "surname": "Mammadzada",
+      "age": 25,
+      "src": "https://www.artmonastery.org/wp-content/uploads/abbot-shi-yongxin-2-shaolin-summit-deborah-yun.jpg",
+      "description": "Sonunu dusunen kahraman olamaz!"
+    }
+  ]
+}

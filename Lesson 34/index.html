@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #myButton {
+        transition: all 0.5s;
+      }
+      .dark {
+        background-color: black;
+        color: lime;
+      }
+
+      .light {
+        background-color: white;
+        color: black;
+      }
+
+      .orange {
+        background-color: orange;
+      }
+      .green {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="light" id="myButton">Click me!</div>
+
+    <form id="form">
+      <input type="text" id="input" placeholder="nese yazi" />
+      <input type="submit" value="submit" />
+    </form>
+    <button id="focusButton">Focus input</button>
+    <button id="blurButton">Blur input</button>
+    <script src="./app.js"></script>
+  </body>
+</html>

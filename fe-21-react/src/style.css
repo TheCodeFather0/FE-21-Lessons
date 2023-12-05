@@ -1,0 +1,13 @@
+.card {
+  width: 300px;
+  border: 1px solid darkblue;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}

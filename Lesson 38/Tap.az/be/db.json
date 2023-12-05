@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "https://tap.azstatic.com/uploads/medium/2022%2F11%2F23%2F14%2F16%2F32%2F603ece29-3bae-4adc-ae47-7f505d3868c4%2F6436_YcEzlbNfSBrXcsJ7_l27-w.jpg",
+      "description": "Televizor JVC",
+      "price": 420,
+      "currency": "AZN"
+    },
+    {
+      "id": 2,
+      "image": "https://tap.azstatic.com/uploads/medium/2023%2F09%2F12%2F11%2F32%2F25%2F63773cc7-7aa8-47df-9c91-8ef69da3ce9a%2F3638_MfiQTtJ_WmfHJx0ib2Sw8A.jpg",
+      "description": "Saat fosforlu",
+      "price": 25,
+      "currency": "AZN"
+    },
+    {
+      "id": 1,
+      "image": "https://tap.azstatic.com/uploads/medium/2022%2F11%2F23%2F14%2F16%2F32%2F603ece29-3bae-4adc-ae47-7f505d3868c4%2F6436_YcEzlbNfSBrXcsJ7_l27-w.jpg",
+      "description": "Televizor JVC",
+      "price": 420,
+      "currency": "AZN"
+    },
+    {
+      "id": 2,
+      "image": "https://tap.azstatic.com/uploads/medium/2023%2F09%2F12%2F11%2F32%2F25%2F63773cc7-7aa8-47df-9c91-8ef69da3ce9a%2F3638_MfiQTtJ_WmfHJx0ib2Sw8A.jpg",
+      "description": "Saat fosforlu",
+      "price": 25,
+      "currency": "AZN"
+    },
+    {
+      "id": 1,
+      "image": "https://tap.azstatic.com/uploads/medium/2022%2F11%2F23%2F14%2F16%2F32%2F603ece29-3bae-4adc-ae47-7f505d3868c4%2F6436_YcEzlbNfSBrXcsJ7_l27-w.jpg",
+      "description": "Televizor JVC",
+      "price": 420,
+      "currency": "AZN"
+    },
+    {
+      "id": 2,
+      "image": "https://tap.azstatic.com/uploads/medium/2023%2F09%2F12%2F11%2F32%2F25%2F63773cc7-7aa8-47df-9c91-8ef69da3ce9a%2F3638_MfiQTtJ_WmfHJx0ib2Sw8A.jpg",
+      "description": "Saat fosforlu",
+      "price": 25,
+      "currency": "AZN"
+    }
+  ]
+}
