@@ -1,0 +1,12 @@
+#root {
+  text-align: center;
+  user-select: none;
+}
+
+button {
+  margin-inline: 5px;
+}
+
+.box {
+  margin-top: 20px;
+}

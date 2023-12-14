@@ -1,0 +1,14 @@
+.done {
+  color: Red;
+  text-decoration: line-through;
+}
+
+button {
+  margin-left: 10px;
+  color: lime;
+  background-color: black;
+}
+
+li {
+  margin: 10px;
+}
