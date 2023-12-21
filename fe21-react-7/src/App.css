@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #232323;
+  padding: 20px;
+  color: white;
+}
+
+button {
+  margin: 20px;
+  padding: 10px;
+}
+
+.dark,
+.dark * {
+  background-color: #232323;
+  color: white;
+}
+
+.light,
+.light * {
+  background-color: white;
+  color: #232323;
+}
